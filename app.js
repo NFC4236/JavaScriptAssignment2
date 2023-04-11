@@ -7,3 +7,31 @@ function sum(number1) {
 }
 let innerFaction1 = sum(5);
 innerFaction1(5);
+
+/******************Six Program******************/
+
+let persons = [];
+function saveObjectData(name1,age1,city1) {
+    let std = {
+        name : prompt("Enter Name"),
+        age : +prompt("Enter Age"),
+        city : prompt("Enter City Name"),
+    }
+
+    persons.push(std);
+    console.log(persons);
+    let stringifys = JSON.stringify(persons);
+    localStorage.setItem("persons" , stringifys);
+};
+
+
+//********************7th Program**********************/
+
+function returnObject(objectData) {
+
+     console.log(localStorage.getItem(objectData));
+      
+}
+
+returnObject("persons");
+
