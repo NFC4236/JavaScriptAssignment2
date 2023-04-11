@@ -17,6 +17,16 @@ function setParagraph(element, content) {
 }
   
 setParagraph("p" ,"Sand and Sleep Both are Deep");
+//******************4TH Program ********************/
+
+function listAdd(idPara , listPara) {
+    
+    let addList = document.querySelector(idPara);
+    addList.innerText = listPara;
+    
+}
+listAdd  ( '#demo' ,prompt("Enter List Item"));
+
 //***************5TH Program****************/
 
  function bgColorChange(refer,bgColor) {
