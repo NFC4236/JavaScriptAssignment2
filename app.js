@@ -7,6 +7,16 @@ function sum(number1) {
 }
 let innerFaction1 = sum(5);
 innerFaction1(5);
+//****************3rd Program******************/
+
+function setParagraph(element, content) {
+   
+    let elemCreate = document.createElement(element);
+    elemCreate.innerText = content;
+    document.body.appendChild(elemCreate);
+}
+  
+setParagraph("p" ,"Sand and Sleep Both are Deep");
 //***************5TH Program****************/
 
  function bgColorChange(refer,bgColor) {
