@@ -7,6 +7,16 @@ function sum(number1) {
 }
 let innerFaction1 = sum(5);
 innerFaction1(5);
+//***************5TH Program****************/
+
+ function bgColorChange(refer,bgColor) {
+   
+let show = document.querySelector(refer);
+show.innerHTML ="Hello !";
+show.style.backgroundColor = bgColor;
+
+}
+ bgColorChange('#para',"Pink");
 
 /******************Six Program******************/
 
